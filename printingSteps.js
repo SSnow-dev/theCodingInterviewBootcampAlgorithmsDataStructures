@@ -11,7 +11,7 @@ function printSteps(numOfSteps) {
   for (let i = 1; i <= numOfSteps; i++) {
     console.log("#".repeat(i) + " ".repeat(spaces) + flagpole);
     spaces --;
-    flagpole = "|"
+    flagpole = "|";
   }
 }
 
